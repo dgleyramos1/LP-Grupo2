@@ -55,7 +55,7 @@
         width: 75%;
     }
     .content p {
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
@@ -69,7 +69,7 @@
         background-position: top center;
     }
     .content {
-        width: 50%;
+        width: 35%;
     }
     .content img {
         width: 35%;
