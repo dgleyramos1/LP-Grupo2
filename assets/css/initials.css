@@ -1,0 +1,10 @@
+body {
+    background: var(--white);
+    font-family: var(--font-family);
+    font-weight: var(--regular);
+}
+
+h1,
+h2 {
+    font-weight: var(--bold);
+}
