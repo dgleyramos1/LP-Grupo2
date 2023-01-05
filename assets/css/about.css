@@ -41,6 +41,7 @@
 @media (min-width: 992px) {
     .about {
         padding: 40px;
+        margin-bottom: 15px;
     }
     .about-container {
         height: 100%;
@@ -53,6 +54,6 @@
     }
 
     .about-content p {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
