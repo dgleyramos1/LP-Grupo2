@@ -1,0 +1,38 @@
+.metodologia {
+    margin: 15px auto;
+}
+
+.metodologia-content {
+    text-align: left;
+    padding: 8% 5%;
+}
+
+.metodologia-content h1 {
+    color: var(--main-color);
+    margin-bottom: 15px;
+}
+
+.metodologia-content p {
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+}
+
+/* Large devices (tablet, 768px and up)*/
+@media (min-width: 768px) {
+    .metodologia-content {        
+        padding: 3%;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .metodologia-content h1 {
+        margin-bottom: 24px;
+        font-size: 24px;
+    }
+
+    .metodologia-content p {
+        font-size: 16px;
+    }
+}
