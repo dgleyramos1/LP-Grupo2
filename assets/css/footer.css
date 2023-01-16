@@ -1,0 +1,119 @@
+.footer {
+    background-color: var(--main-color);
+    padding: 5%;
+    font-weight: 400;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.footer-image {
+    width: 60%;
+}
+.footer-image img {
+    width: 100%;
+}
+.footer-sociais {
+    width: 100%;
+    margin: 10px 0px 5px 0px;
+}
+.footer-title {
+    color: white;
+    font-size: 16px;
+}
+.sociais-list {
+    width: 40%;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sociais-item {
+    font-size: 20px;
+}
+.sociais-item a i {
+    color: var(--secundary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.sociais-item a i:hover {
+    color: white;
+}
+
+.footer-contato {
+    width: 100%;
+    margin: 5px 0px 10px 0px;
+}
+.contato-list {
+    margin-top: 10px;
+    display: flex;
+    row-gap: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.contato-list li {
+    color: white;
+    font-size: 13px;
+}
+.footer-copy {
+    width: 100%;
+    text-align: center;
+}
+.footer-copy p {
+    font-size: 13px;
+    color: white;
+}
+
+/* Devices responsive(min width 768px)*/
+@media (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        gap: 10px;
+    }
+    .footer-image {
+        width: 30%;
+        order: 1;
+    }
+    .footer-image img {
+        width: 75%;
+    }
+    .footer-sociais {
+        width: 20%;
+        order: 3;
+    }
+    .sociais-list {
+        width: 80%;
+    }
+    .footer-contato {
+        width: 40%;
+        order: 2;
+    }
+    .footer-copy {
+        order: 4;
+    }
+
+    .footer {
+        padding-bottom: 2%;
+    }
+}
+
+@media (min-width: 992px) {
+    .sociais-list {
+        justify-content: flex-start;
+        gap: 14px;
+    }
+    .sociais-item {
+        font-size: 24px;
+    }
+    .footer-title {
+        font-size: 22px;
+    }
+    .contato-list li {
+        font-size: 15px;
+    }
+}
